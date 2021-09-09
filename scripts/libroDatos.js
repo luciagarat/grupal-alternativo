@@ -1,9 +1,11 @@
+//CAMBIAR ATRIBUTOS DEL ARRAY CON LOS QUE CORRESPONDAN EN NUESTRO JSON
+
 var arrayDatos = [];
 function showLibro(array) {
     let libro = "";
     let fotos = "";
     libro += `
-    <h2> <strong>${array.name} </strong></h2><br>
+    <h2> <strong>${array.name} </strong></h2><br>           
     <p> ${array.description} </p><br><p>${array.category}</p>
     <div>${fotos}</div><br>
     <p>Precio: ${array.cost} ${array.currency} </p>
